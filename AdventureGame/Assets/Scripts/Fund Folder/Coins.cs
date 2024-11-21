@@ -10,6 +10,7 @@ public class Coins : MonoBehaviour
         if (collision.tag == "Player")
         {
             Debug.Log("coin collected");
+            //score.GetComponent<>();
             Destroy(gameObject);
         }
     }

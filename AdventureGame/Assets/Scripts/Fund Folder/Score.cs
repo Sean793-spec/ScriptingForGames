@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 public class Score : MonoBehaviour
 {
-    public static Score instance;
+    public Score instance;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI highScoreText;
     int score = 0;

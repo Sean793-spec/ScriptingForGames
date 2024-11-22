@@ -711,7 +711,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '10 Points
+  m_text: 'Score: 0
 
 '
   m_isRightToLeft: 0
@@ -1067,6 +1067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4918dda9e26ede4f92a4e84b43bbdc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: {fileID: 0}
 --- !u!1 &478400064
 GameObject:
   m_ObjectHideFlags: 0
@@ -1099,8 +1100,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6d963b075eaeec4398b1ef8c0de16d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  highScoreText: {fileID: 0}
+  instance: {fileID: 0}
+  scoreText: {fileID: 254707929}
+  highScoreText: {fileID: 138366447}
 --- !u!114 &478400066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18560,6 +18562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4918dda9e26ede4f92a4e84b43bbdc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: {fileID: 478400065}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
